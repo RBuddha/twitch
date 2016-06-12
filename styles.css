@@ -1,0 +1,82 @@
+#twitch {
+
+    margin-top: 2em;
+    margin-right: 2em;
+    margin-bottom: -1em;
+    
+}
+h2{
+    font-family: 'Shadows Into Light', cursive;
+    color: #663399;
+}
+
+h3, h4{
+    font-family: 'Shadows Into Light', cursive;
+    color: #663399;
+    font-weight: bold;
+    padding: 8px 8px;
+    background-color: #BF55EC;
+    margin-top: -1em;
+    
+}
+body {
+    background-color: #fff;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1em;
+}
+#logo{
+    border-radius: 5px;
+    margin: -30px 10px 10px 10px;
+    width: 100px;
+    height: auto;
+}
+li {
+    list-style-type: none;
+    margin: 1.1em 1.1em 1.1em 1.1em;
+}
+
+#offline{
+background-color: #D2D7D3;
+
+}
+
+.btn{
+    margin-top: -1em;
+    margin-bottom: 1.5em;
+    margin-left: 1em;
+}
+ .btn a {
+    text-decoration: none;
+    background-color: orange;
+    color: #ffffff;
+}
+.btn-info{
+      background: #663399;
+      border-color: #663399;
+     
+}
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open > .dropdown-toggle.btn-info {
+    background: #BF55EC;
+    border-color: #BF55EC;
+}
+ 
+.btn-info:active, .btn-primary.active {
+    background: #BF55EC;
+    border-color: #BF55EC;
+    box-shadow: none;
+}
+
+@media only screen and (max-width: 500px) {
+    #upDate{
+    display: none;
+}
+#logo{
+    border-radius: 5px;
+    margin: -15px 10px 10px 10px;
+    width: 70px;
+    height: auto;
+}
+
+}

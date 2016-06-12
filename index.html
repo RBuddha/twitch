@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>twitch.tv</title>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light|Roboto' rel='stylesheet' type='text/css'>
+    <script src="https://use.fontawesome.com/de00c13796.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+<div class="col-md-3"></div> 
+     <!--end left column-->
+
+<div class="col-md-6">
+ <div id="twitch" class="row text-center"><img class="pull-right"  src="http://content.eveonline.com/www/newssystem/media/65538/1/twitch-tv-bot.png" width='100px' height='auto'/></div>   
+            <!--buttons-->
+            
+             
+             <button type="button" class="btn btn-info" id="on">online</button>
+             <button type="button" class="btn btn-info" id="off">offline</button>
+             <button type="button" class="btn btn-info" id="all"> all </button>
+            
+            <!--end buttons-->
+        <div id='online'></div>
+        <div id='offline'></div>
+        
+
+</div>
+<div class="col-md-3"> </div> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+<script type="text/javascript" src="stream.js"></script>
+</body>
+</html>

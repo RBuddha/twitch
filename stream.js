@@ -15,6 +15,8 @@ getStreams();
        $("#online").show();
        $("#offline").show();
    })
+   
+  
 }); //doc ready function
 
 function getStreams(){ 
@@ -76,6 +78,9 @@ function getStreams(){
             }else{
             $('#offline').append(html);
             }
+             $('li').click(function() {
+               document.location.href=link;
+                  })
             
             
         });//getjson streamUrl  

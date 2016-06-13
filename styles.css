@@ -71,12 +71,12 @@ background-color: #D2D7D3;
 @media only screen and (max-width: 500px) {
     #upDate{
     display: none;
-}
-#logo{
-    border-radius: 5px;
-    margin: -15px 10px 10px 10px;
-    width: 70px;
-    height: auto;
-}
+    }
+    #logo{
+        border-radius: 5px;
+        margin: -15px 10px 10px 10px;
+        width: 70px;
+        height: auto;
+    }
 
 }

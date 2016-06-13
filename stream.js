@@ -80,13 +80,13 @@ function getStreams(){
             }
              $('li').click(function() {
                document.location.href=link;
-                  })
+            })
             
             
-        });//getjson streamUrl  
+        });//getjson stream 
         
         
-      });//getjson apiUrl
+      });//getjson api
         
     }); //foreach
 

@@ -79,7 +79,7 @@ function getStreams(){
             $('#offline').append(html);
             }
              $('li').click(function() {
-               document.location=link;
+               window.location.href=link;
             })
             
             

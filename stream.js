@@ -78,9 +78,7 @@ function getStreams(){
             }else{
             $('#offline').append(html);
             }
-             $('li').on("click", function() {
-               window.location.href=link;
-            })
+          
             
             
         });//getjson stream 

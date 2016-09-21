@@ -23,11 +23,16 @@ function getStreams(){
     var channels = ["freecodecamp", "storbeck", "terakilobyte", "habathcx", "RobotCaleb", "thomasballinger", "noobs2ninjas", "beohoff", "cretetion", "comster404", "brunofin", "monstercat", "OgamingSC2"];
         
     channels.forEach(function(value, index){
+       
+     var clientid = "?client_id=ovspb9zesp0jsa1ednkea85v5c18ii1&callback=?";
+     
      var apiUrl = " https://api.twitch.tv/kraken/channels/" 
-     + value + "?callback=?";
+     + value + clientid;
      
      var streamUrl = " https://api.twitch.tv/kraken/streams/" 
-    + value + "?callback=?";
+    + value + clientid;
+    
+     
     
     $.getJSON(apiUrl, function(data){
         $.getJSON(streamUrl, function(response){
